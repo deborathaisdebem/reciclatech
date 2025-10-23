@@ -52,7 +52,7 @@ header .menu-direita {
 .menu-desktop a {
   color: #4b5563;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 16px;
   font-family: poppins, sans-serif;
 }
 .menu-desktop a:hover {
@@ -65,7 +65,7 @@ header .menu-direita {
   border: none;
   padding: 8px 8px;
   border-radius: 4px;
-  font-size: 12px;
+  font-size: 16px;
   font-family: poppins, sans-serif;
   cursor: pointer;
   transition: 0.2s;
