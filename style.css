@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -90,13 +89,13 @@ main .texto-missao {
   padding: 10px;
 }
 main .texto-missao h2 {
-  font-size: 25px;
+  font-size: 50px;
   font-family: poppins, sans-serif;
   color: #1f2937;
   margin-bottom: 10px;
 }
 main .texto-missao p {
-  font-size: 12px;
+  font-size: 16px;
   font-family: inter, sans-serif;
   color: #4b5563;
   margin-bottom: 30px;
@@ -116,7 +115,7 @@ main .texto-missao .btn-acao button {
   gap: 8px;
   padding: 8px 16px;
   border-radius: 6px;
-  font-size: 10px;
+  font-size: 14px;
   font-family: poppins, sans-serif;
   cursor: pointer;
   transition: 0.2s;
@@ -142,6 +141,6 @@ main .texto-missao .btn-acao img {
   height: 15px;
 }
 main #reciclar {
-  width: 35%;
-  height: 5%; /* ✅ ocupa toda a altura da section */
+  width: 30%;
+  height: 32%;
 }/*# sourceMappingURL=style.css.map */
