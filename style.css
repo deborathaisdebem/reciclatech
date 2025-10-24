@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -72,4 +73,75 @@ header .menu-direita {
 }
 .btn-inicial button:hover {
   background-color: #21c05c;
+}
+
+main .missao {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 20px;
+  height: auto;
+}
+main .texto-missao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+main .texto-missao h2 {
+  font-size: 25px;
+  font-family: poppins, sans-serif;
+  color: #1f2937;
+  margin-bottom: 10px;
+}
+main .texto-missao p {
+  font-size: 12px;
+  font-family: inter, sans-serif;
+  color: #4b5563;
+  margin-bottom: 30px;
+  line-height: 1.4;
+}
+main .texto-missao .btn-acao {
+  display: flex;
+  gap: 25px;
+}
+main .texto-missao .btn-acao a {
+  text-decoration: none;
+}
+main .texto-missao .btn-acao button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 10px;
+  font-family: poppins, sans-serif;
+  cursor: pointer;
+  transition: 0.2s;
+}
+main .texto-missao .btn-acao .doar button {
+  background-color: #16a34a;
+  color: white;
+  border: 2px solid #16a34a;
+}
+main .texto-missao .btn-acao .doar button:hover {
+  background-color: #21c05c;
+}
+main .texto-missao .btn-acao .adquirir button {
+  background-color: white;
+  color: #2563eb;
+  border: 2px solid #2563eb;
+}
+main .texto-missao .btn-acao .adquirir button:hover {
+  background-color: #e8f0ff;
+}
+main .texto-missao .btn-acao img {
+  width: 15px;
+  height: 15px;
+}
+main #reciclar {
+  width: 35%;
+  height: 5%; /* ✅ ocupa toda a altura da section */
 }/*# sourceMappingURL=style.css.map */
