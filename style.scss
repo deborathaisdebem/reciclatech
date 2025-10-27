@@ -177,7 +177,7 @@ main {
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    height: 30vh;
+    height: 25vh;
 
     h2 {
       color: #16a34a;
@@ -191,4 +191,93 @@ main {
       font-size: 16px;
     }
   }
+
+  .como-funciona {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 40px 40px;
+
+    .pergunta {
+      h2 {
+        text-align: center;
+        font-size: 25px;
+        font-family: poppins, sans-serif;
+        color: #1f2937;
+        text-align: start;
+      }
+
+      p {
+        margin-top: 8px;
+        text-align: center;
+        font-size: 16px;
+        font-family: poppins, sans-serif;
+        color: #4b5563;
+        text-align: start;
+      }
+    }
+
+    .doadores-adquirentes {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+      gap: 20px;
+
+      .doadores {
+        background-color: #f3f5f8;
+        padding: 20px;
+        border-radius: 8px;
+
+        .bloco-doar {
+          h3 {
+            font-size: 20px;
+            font-family: inter, sans-serif;
+            color: #16a34a;
+            font-weight: 400;
+          }
+
+          img {
+            width: 28px;
+            height: 28px;
+            margin-right: 8px;
+          }
+
+          h4 {
+            font-size: 16px;
+            font-family: poppins, sans-serif;
+            color: #4b5563;
+            margin-top: 6px;
+            font-weight: normal;
+          }
+        }
+
+        
+      }
+.descricao {
+        
+        
+        img {
+          width: 20px;
+            height: 20px;
+        }
+
+        ul {
+        list-style: none;
+        }
+
+        .destaque {
+          font-size: 16px;
+          font-family: poppins, sans-serif;
+          color: #09090B;
+          font-weight: bold;
+        }
+
+        p{
+          font-size: 16px;
+          font-family: poppins, sans-serif;
+          color: #4b5563;
+        }
+
+    }
+  }
+}
 }

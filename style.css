@@ -150,7 +150,7 @@ main .numeros {
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  height: 30vh;
+  height: 25vh;
 }
 main .numeros h2 {
   color: #16a34a;
@@ -161,4 +161,71 @@ main .numeros p {
   color: #4b5563;
   font-family: poppins, sans-serif;
   font-size: 16px;
+}
+main .como-funciona {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 40px 40px;
+}
+main .como-funciona .pergunta h2 {
+  text-align: center;
+  font-size: 25px;
+  font-family: poppins, sans-serif;
+  color: #1f2937;
+  text-align: start;
+}
+main .como-funciona .pergunta p {
+  margin-top: 8px;
+  text-align: center;
+  font-size: 16px;
+  font-family: poppins, sans-serif;
+  color: #4b5563;
+  text-align: start;
+}
+main .como-funciona .doadores-adquirentes {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 20px;
+}
+main .como-funciona .doadores-adquirentes .doadores {
+  background-color: #f3f5f8;
+  padding: 20px;
+  border-radius: 8px;
+}
+main .como-funciona .doadores-adquirentes .doadores .bloco-doar h3 {
+  font-size: 20px;
+  font-family: inter, sans-serif;
+  color: #16a34a;
+  font-weight: 400;
+}
+main .como-funciona .doadores-adquirentes .doadores .bloco-doar img {
+  width: 28px;
+  height: 28px;
+  margin-right: 8px;
+}
+main .como-funciona .doadores-adquirentes .doadores .bloco-doar h4 {
+  font-size: 16px;
+  font-family: poppins, sans-serif;
+  color: #4b5563;
+  margin-top: 6px;
+  font-weight: normal;
+}
+main .como-funciona .doadores-adquirentes .descricao img {
+  width: 20px;
+  height: 20px;
+}
+main .como-funciona .doadores-adquirentes .descricao ul {
+  list-style: none;
+}
+main .como-funciona .doadores-adquirentes .descricao .destaque {
+  font-size: 16px;
+  font-family: poppins, sans-serif;
+  color: #09090B;
+  font-weight: bold;
+}
+main .como-funciona .doadores-adquirentes .descricao p {
+  font-size: 16px;
+  font-family: poppins, sans-serif;
+  color: #4b5563;
 }/*# sourceMappingURL=style.css.map */
