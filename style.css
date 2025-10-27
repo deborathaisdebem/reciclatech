@@ -23,7 +23,7 @@ header .interface {
   border-bottom: 2px solid rgba(204, 204, 204, 0.6352941176);
   padding-bottom: 8px;
 }
-header .menu-direita {
+header .menu {
   display: flex;
   align-items: center;
   gap: 25px;
@@ -95,7 +95,7 @@ main .texto-missao h2 {
   margin-bottom: 10px;
 }
 main .texto-missao p {
-  font-size: 16px;
+  font-size: 20px;
   font-family: inter, sans-serif;
   color: #4b5563;
   margin-bottom: 30px;
@@ -143,4 +143,22 @@ main .texto-missao .btn-acao img {
 main #reciclar {
   width: 30%;
   height: 32%;
+}
+main .numeros {
+  display: flex;
+  background-color: #f3f5f8;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  height: 30vh;
+}
+main .numeros h2 {
+  color: #16a34a;
+  font-size: 25px;
+  font-family: poppins, sans-serif;
+}
+main .numeros p {
+  color: #4b5563;
+  font-family: poppins, sans-serif;
+  font-size: 16px;
 }/*# sourceMappingURL=style.css.map */
